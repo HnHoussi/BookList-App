@@ -3,16 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width= , initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    />
-    <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/b574f2577a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="bootstrap.min.css">
     <title>Book List App</title>
   </head>
   <body>
     <header>
-      <h1><i class="fa-solid fa-book"></i> My <span>Book</span>List</h1>
+      <h1><i class="fa-solid fa-book-open"></i> My <span>Book</span>List</h1>
     </header>
     <form action="">
         <label for="title">Title</label>
@@ -21,7 +18,7 @@
         <input type="text" name="author" id="author">
         <label for="isbn">ISBN</label>
         <input type="text" name="isbn" id="isbn">
-        <button type="submit">Submit</button>
+        <button type="submit" class="btn btn-primary">Submit</button>
     </form>
     <section class="book-list">
         <ul>
