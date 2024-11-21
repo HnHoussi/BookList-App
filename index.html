@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width= , initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script
       src="https://kit.fontawesome.com/b574f2577a.js"
       crossorigin="anonymous"
@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="bootstrap.min.css" />
     <title>Book List App</title>
   </head>
-  <body>
+  <body style="background-color: #e6e4e4">
     <div class="container mt-5">
       <h1 class="display-4 text-center">
         <i class="fa-solid fa-book-open text-info"></i> My
@@ -40,12 +40,12 @@
         </form>
       </div>
       <div class="d-flex justify-content-center align-items-center">
-        <table class="table table-striped text-center" style="width: 80%">
+        <table class="table table-striped text-center mt-5 mb-5" style="width: 80%">
           <thead>
-            <tr>
-              <th scope="col">Title</th>
-              <th scope="col">Author</th>
-              <th scope="col">ISBN#</th>
+            <tr style="font-size: 1.3rem;">
+              <th scope="col"><strong>Title</strong></th>
+              <th scope="col"><strong>Author</strong></th>
+              <th scope="col"><strong>ISBN</strong>#</th>
               <th scope="col"></th>
             </tr>
           </thead>
@@ -53,5 +53,6 @@
         </table>
       </div>
     </div>
+    <script src="app.js"></script>
   </body>
 </html>
